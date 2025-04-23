@@ -29,9 +29,6 @@ func countSwaps(array []int32) {
 				swaps++
 			}
 		}
-		if !hasSwapped {
-			break
-		}
 	}
 
 	fmt.Printf("Array is sorted in %d swaps.\n", swaps)
